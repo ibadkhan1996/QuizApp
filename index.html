@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body onload="dispQues(0)">
+    <div class="card text-right">
+        <h5 class="card-header text-left">Javascript Objects Quiz</h5>
+        <div class="card-body">
+            <h5 class="card-title text-left" id="ques"></h5>
+            <div class="list-group text-left my-4 col-md-4">
+                <a class="list-group-item list-group-item-action opt" onclick="addActiveClass(this)" data-toggle="list"
+                    href="#"></a>
+                <a class="list-group-item list-group-item-action opt" onclick="addActiveClass(this)" data-toggle="list"
+                    href="#"></a>
+                <a class="list-group-item list-group-item-action opt" onclick="addActiveClass(this)" data-toggle="list"
+                    href="#"></a>
+                <a class="list-group-item list-group-item-action opt" onclick="addActiveClass(this)" data-toggle="list"
+                    href="#"></a>
+            </div>
+        </div>
+        <div class="card-footer">
+            <a href="#" class="btn btn-primary" onclick="nextQues(this)">Next</a>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,16 @@
+.card {
+    margin: 20px;
+}
+.active {
+    background-color: #007bff;
+    color: white;
+}
+.names {
+    color: #28A745;
+    font-family: serif;
+    font-weight: bold;
+}
+.cardText {
+    font-size: 14px;
+    margin: 0px auto;
+}
